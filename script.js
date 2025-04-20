@@ -25,19 +25,14 @@ const sendEmail = async (userDetail) => {
 <p>I hope you're doing well.</p>
 
 <p>
-I’m <b>${yourName}</b>, a Frontend Developer at <b>${currentCompany}</b>, reaching out after learning that <b>${targetCompany}</b> may be hiring for a <b>${role}</b>. I'm currently exploring new opportunities and wanted to briefly introduce myself.
+I came across an exciting opportunity for <b>${role}</b>. at <b>${targetCompany}</b> and wanted to express my keen interest in it.
+</p>
+<p>
+I bring 3 years of experience as a frontend developer, working extensively with React.js Currently, I’m working at ${currentCompany} as a Full Stack Developer with a frontend focus, where I've built and maintained complex UI components and enterprise-grade applications.
 </p>
 
 <p>
-With over <b>3 years of experience</b> in frontend development, I’ve worked extensively with technologies like <b>JavaScript, TypeScript, React, and Next.js</b>. At <a href="https://lumiq.ai/">${currentCompany}</a>, I’ve built and scaled products used by <b>25M+ monthly users</b>, and I’ve been deeply involved in <b>design systems, performance optimizations, and test-driven development</b> using tools like <b>Jest</b> and <b>React Testing Library</b>.
-</p>
-
-<p>
-I hold a <b>B.Tech in Computer Science</b> from <b>IIIT Gwalior (2022)</b>, and I enjoy solving algorithmic problems (Codeforces rating: <b>1645</b>).
-</p>
-
-<p>
-Currently, I’m in my notice period and available to join within <b>15 days</b>. I’d be thrilled to explore a suitable opportunity at <b>${targetCompany}</b> and contribute to your team.
+I would love the opportunity to contribute to ${targetCompany} mission and would appreciate it if you could consider my profile for the role.
 </p>
 
 <p>
@@ -51,7 +46,11 @@ Thank you for your time and consideration. Looking forward to hearing from you!
 <p>
 Warm regards,<br>
 <b>${yourName}</b><br>
-📞 +91 9876543210<br>
+Frontend Developer<br>
+${linkedIn}<br>
+https://my-portfolio-git-main-bharatsarda18s-projects.vercel.app/<br>
+7627064727 | sardabharat71@gmail.com
+
 </p> `,
   };
 
